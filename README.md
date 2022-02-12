@@ -13,7 +13,7 @@ You can check the final result clicking [here](https://br-adriel.github.io/css-s
 Um formulário de cadastro desenvolvido usando HTML e CSS.
 
 Essa página foi construída durante uma atividade do [The Odin Project](https://www.theodinproject.com/).
-Como essa atividade consistia em contruir uma página de cadastro a partir de uma imagem dada,
+Como essa atividade consistia em construir uma página de cadastro a partir de uma imagem dada,
 eu mantive todo o conteúdo do site e repositório em inglês para ficar o mais próximo possível da imagem de referência.
 
 Você pode ver o resultado final clicando [aqui](https://br-adriel.github.io/css-signup-form/).
