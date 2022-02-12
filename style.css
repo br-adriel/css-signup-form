@@ -101,3 +101,21 @@ main > p {
   max-width: 70%;
   margin-left: 28px;
 }
+
+button {
+  padding: 8px 16px;
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 28px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+
+button:hover {
+  color: var(--accent);
+  background-color: #fff;
+}
