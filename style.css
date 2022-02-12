@@ -102,8 +102,12 @@ main > p {
   margin-left: 28px;
 }
 
+main > span {
+  margin-left: 28px;
+}
+
 button {
-  padding: 8px 16px;
+  padding: 10px 32px;
   background-color: var(--accent);
   color: #fff;
   border: none;
@@ -118,4 +122,52 @@ button {
 button:hover {
   color: var(--accent);
   background-color: #fff;
+}
+
+.card {
+  background: #fff;
+  padding: 24px;
+  padding-left: 32px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  margin-top: 36px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+}
+
+.form-line {
+  display: flex;
+  gap: 64px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-item label {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.form-item input {
+  width: 300px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.form-item input:focus {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:invalid {
+  border: 1px solid red;
 }
